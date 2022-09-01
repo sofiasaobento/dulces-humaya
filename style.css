@@ -1,0 +1,55 @@
+/* Estilos de presentacion */
+#fondoDePortada {
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.contenedor-primera-seccion h1,p {
+    color: #FFFAF4;
+}
+
+.contenedor-primera-seccion {
+    width: 75%;
+    padding: 4rem 2rem ;
+}
+
+
+
+
+
+
+
+
+
+
+/* Medias querys */
+@media screen and ( min-width:380px) and (max-width:580px) {
+    
+}
+
+@media screen and (min-width:581px) and (max-width:1200px) {
+    
+}
+
+@media screen and (min-width:1201px) {
+    .contenedor-primera-seccion {
+        width: 30%;
+        padding: 4rem 2rem;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0 2rem;
+    }
+    section {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contenedor-primera-seccion p {
+        color: #FFFAF4;
+    }
+    .contenedor-primera-seccion button {
+        display: block;
+        margin-top: 3rem !important;
+        margin: auto;
+    }
+}
